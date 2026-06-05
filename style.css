@@ -119,3 +119,30 @@ a{
     border: 4px solid #3882F6;
     border-radius: 12px;
 }
+
+/* TESTIMONIAL SECTION */
+.testimonial{
+    background-color: #E5E7EB;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.quote-author{
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 16px;
+    /* Give it the exact same max-width as the quote so its right-alignment lines up perfectly with the quote's edge */
+    max-width: 800px;
+    width: 100%;
+    text-align: right;
+}
