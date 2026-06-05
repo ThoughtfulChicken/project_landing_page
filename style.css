@@ -35,28 +35,48 @@ a{
 }
 
 
-/* .headerbody{
+.hero{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 100px 80px;
+    gap: 60px; /*space between left and right side */
 }
 
-.main_text{
+.hero-left{
+    max-width: 450px;  /*pervents text from stretching too wide*/
+}
+
+.main-text{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    width: 400px;
+    margin-bottom: 16px;
 }
 
-.secondary_text{
+.secondary-text{
     font-size: 18px;
     color: #E5E7EB;
-    width: 400px;
+    margin-bottom: 32px;
 }
 
-button{
+.signup-btn{
     color: white;
-    
-} */
+    background-color: #3882F6;
+    padding: 12px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
+.hero-right{
+    background-color: grey;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
