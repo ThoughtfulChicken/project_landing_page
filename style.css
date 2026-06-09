@@ -146,3 +146,40 @@ a{
     width: 100%;
     text-align: right;
 }
+
+/* CALL TO ACTION SECTION */
+.call-container{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin: 60px auto; /*centers the whole blue box on the page*/
+    max-width: 900px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 40px 80px;
+}
+
+.call-title{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.call-subtext{
+    font-size: 16px;
+    color: #E5E7EB;
+    margin-top: 4px;
+}
+
+.signup-call{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-color: white;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
