@@ -74,11 +74,18 @@ a{
 
 .hero-right{
     background-color: grey;
-    width: 300px;
-    height: 100px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero-right img{
+    width: 100%;
+    height:auto;
+    display: block;
 }
 
 /* INFORMATION SECTION */
